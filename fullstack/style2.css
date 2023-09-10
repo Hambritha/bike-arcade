@@ -1,0 +1,40 @@
+.box{
+    background: #db7979;
+    border: 2px solid;
+    padding: 5px;
+    font-size: 20px;
+    background-color: cornsilk;
+    justify-items: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 20px;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+.box img{
+    width: 300px;
+    height: 300px;
+    
+}
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+span{
+    color: brown;
+}

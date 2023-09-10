@@ -1,0 +1,28 @@
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: red;
+    border: 3px solid red;
+    text-decoration: underline;
+
+}
+body{
+    background: gainsboro;
+    border: 2px solid;
+    padding: 20px;
+}
+div{
+    border: 2px solid ;
+    column-count: 3;
+    column-width: 5px;
+    column-rule: none;
+    column-gap: 45px;
+    padding: 10px;
+}
+h2{
+    text-decoration: underline;
+}
+.line{
+    border-bottom: 5px solid;
+}

@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    background-image: url(biker.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    margin: 0px;
+    background-color:red
+}
+ul li{
+    display: inline;
+    padding: 40px;
+    font-weight: bold;
+    font-size: 26px;
+}
+a:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+.logo{
+    color: black;
+    margin: 0px;
+    font-size: 40px;
+
+}
+.search-box{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;}
+.container{
+    display: grid;
+    grid-template-columns: 300px 300px ;
+    grid-template-rows: 300px 300px;
+    padding: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: end;
+}
+.box{
+    border: 2px solid;
+    padding: 5px;
+    font-size: 20px;
+    background-color: cornsilk;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.box img{
+    width: 200px;
+    height: 200px;
+}
